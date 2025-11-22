@@ -1,0 +1,60 @@
+######## PYTHON ########
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+######## VIRTUAL ENVIRONMENTS ########
+venv/
+env/
+.venv/
+
+######## API KEYS & ENV FILES ########
+.env
+*.env
+
+######## LARGE MODEL / CHECKPOINT FILES ########
+*.bin
+*.pt
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+
+######## FAISS / EMBEDDING INDEX FILES ########
+*.faiss
+*.fais
+index.faiss
+index.pkl
+*.pkl
+*.npz
+
+######## CACHE DIRECTORIES ########
+cache/
+models/
+.transformers/
+.transformers_cache/
+.sentence-transformers/
+huggingface/
+huggingface_cache/
+vectorstore_cache/
+
+######## STREAMLIT ########
+logs/
+*.log
+
+######## JUPYTER NOTEBOOK ########
+.ipynb_checkpoints/
+
+######## EDITOR / OS FILES ########
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+######## VISUAL STUDIO CODE ########
+.vscode/
+.history/
+
+######## WINDOWS TRASH ########
+$RECYCLE.BIN/
